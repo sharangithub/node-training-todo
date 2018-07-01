@@ -4,7 +4,11 @@
   "description": "I2I node training todo app",
   "main": "index.js",
   "scripts": {
+    "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "node": {
+    "engine": "10.4.1"
   },
   "author": "Saravanan",
   "license": "ISC",
